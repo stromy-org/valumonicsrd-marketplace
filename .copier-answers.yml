@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier; DO NOT edit manually.
+_commit: v1.0.2
+_src_path: gh:stromy-org/claude-marketplace-template
+author_name: Stromy
+client_name: Valumonics
+client_slug: valumonicsrd
+github_org: stromy-org
+marketplace_name: Valumonics Plugin Marketplace
+marketplace_slug: valumonicsrd-marketplace
+plugin_description: Claude Code plugin for Valumonics branded deliverables (format
+    skills via stromy-format MCP) and Dominican Republic government-data intelligence
+    (do-gov-data MCP)
+plugin_slug: valumonicsrd-plugin
