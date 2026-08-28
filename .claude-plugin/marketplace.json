@@ -9,7 +9,7 @@
     {
       "name": "valumonicsrd-plugin",
       "description": "Claude Code plugin for Valumonics branded deliverables (format skills via stromy-format MCP) and Dominican Republic government-data intelligence (do-gov-data MCP)",
-      "version": "0.1.3",
+      "version": "0.1.8",
       "author": {
         "name": "Stromy"
       },
