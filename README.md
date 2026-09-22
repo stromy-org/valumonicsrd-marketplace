@@ -10,11 +10,12 @@ Public marketplace for Valumonics Claude Code plugins.
 
 ## Installation
 
-### Option A: From the Cowork Desktop UI
+### Option A: In Claude (desktop or web — Cowork, Claude for Work / Team)
 
-1. Open **Customize** → **Browse plugins** → **Personal** tab
-2. Click the `+` to add a marketplace → enter `stromy-org/valumonicsrd-marketplace`
-3. Click **Valumonics** → Install
+1. Open **Settings → Plugins** (or **Connectors & plugins**)
+2. **Add marketplace** → enter `stromy-org/valumonicsrd-marketplace`
+3. Click **Valumonics** → **Install**
+4. In **Settings → Connectors**, switch on the connectors the plugin declares in its `.mcp.json`
 
 ### Option B: From the CLI
 
@@ -29,7 +30,7 @@ claude plugin install valumonicsrd-plugin@valumonicsrd-marketplace
 ### Post-install: dependencies (one-time)
 
 ```bash
-cd ~/.claude/plugins/cache/valumonicsrd-marketplace/valumonicsrd-plugin/0.1.0
+cd ~/.claude/plugins/cache/valumonicsrd-marketplace/valumonicsrd-plugin/<version>
 npm install   # if the plugin has Node dependencies
 uv sync       # if the plugin has Python dependencies
 ```
@@ -38,9 +39,9 @@ uv sync       # if the plugin has Python dependencies
 
 | Interface | Skills available? | Notes |
 |-----------|:-:|-------|
+| **Claude desktop / web — Cowork, Claude for Work** | Yes | Install via **Settings → Plugins**; connectors via **Settings → Connectors** |
 | **Claude Code CLI** | Yes | Terminal — full plugin support |
 | **Desktop app — Code tab** | Yes | Same runtime as CLI |
-| **Desktop app — Cowork tab** | Pending | Cowork plugin loading for marketplace plugins is a known limitation |
 
 ## Available skills
 
