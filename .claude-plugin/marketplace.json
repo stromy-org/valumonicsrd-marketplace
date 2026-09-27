@@ -1,15 +1,15 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "valumonicsrd-marketplace",
-  "description": "Plugin marketplace for Valumonics Claude Code plugins",
+  "description": "Plugin marketplace for Valumonics plugins",
   "owner": {
     "name": "stromy-org"
   },
   "plugins": [
     {
       "name": "valumonicsrd-plugin",
-      "description": "Claude Code plugin for Valumonics branded deliverables (format skills via stromy-format MCP) and Dominican Republic government-data intelligence (do-gov-data MCP)",
-      "version": "0.1.27",
+      "description": "Plugin for Valumonics branded deliverables (format skills via stromy-format MCP) and Dominican Republic government-data intelligence (do-gov-data MCP)",
+      "version": "0.1.28",
       "author": {
         "name": "Stromy"
       },
