@@ -1,0 +1,19 @@
+{
+  "name": "valumonicsrd-marketplace",
+  "interface": {
+    "displayName": "Valumonics"
+  },
+  "plugins": [
+    {
+      "name": "valumonicsrd-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/stromy-org/valumonicsrd-plugin.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    }
+  ]
+}
