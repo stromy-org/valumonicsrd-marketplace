@@ -8,7 +8,8 @@
       "name": "valumonicsrd-plugin",
       "source": {
         "source": "url",
-        "url": "https://github.com/stromy-org/valumonicsrd-plugin.git"
+        "url": "https://github.com/stromy-org/valumonicsrd-plugin.git",
+        "ref": "codex"
       },
       "policy": {
         "installation": "AVAILABLE",
